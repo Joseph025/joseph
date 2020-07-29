@@ -1,3 +1,24 @@
+表A：
+serial_number，pcb_number
+    a1             a2
+    a2             a3
+    a3             a3
+    a1             a4
+    a4             a6
+    a6             a6
+    a6             a8
+    
+结果：
+    chain
+    a1/a2/a3
+    a2/a3
+    a3
+    a1/a4/a6/a8
+    a4/a6/a8
+    a6
+    a6/a8
+
+
 from pyspark import StorageLevel
 from pyspark.sql import SparkSession,functions
 from pyspark.sql.functions import concat_ws, split, when, substring,udf,expr
