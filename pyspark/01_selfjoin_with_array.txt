@@ -1,0 +1,105 @@
+https://github.com/jiaxicheng/stackoverflow/blob/c4528a18b43f7bb8bc94d385e54a0fa6eea0439e/pyspark/120-pyspark-selfjoin_with_array_oprations-1.txt
+
+Use a self join to find all rows which have array values a subset of array from another row:
+
+ + use `size(array_except(d2.cycle, d1.cycle))==0` to find subset
+ + use `size(d2.cycle) < size(d1.cycle)` exclude self
+
+
+After we have this list, take a left_anti join to the original df and then use sort_array
+and drop_duplicates to remove the array with the same items:
+
+    df = spark.createDataFrame([ 
+         (["1", "2","3","4"], ), 
+         (["1","2","3"], ), 
+         (["2","1","3"], ), 
+         (["2","3","4","1"], ), 
+         (["2","3","5"],), 
+         (["1","3","4"],), 
+         (["6","7"], ) 
+    ], ['cycle', ]) 
+    
+    
+    from pyspark.sql.functions import expr
+    
+    # Sample df:
+    df.show()                                                                                                          
+    #+------------+
+    #|       cycle|
+    #+------------+
+    #|[1, 2, 3, 4]|
+    #|   [1, 2, 3]|
+    #|   [2, 1, 3]|
+    #|[2, 3, 4, 1]|
+    #|   [2, 3, 5]|
+    #|   [1, 3, 4]|
+    #|      [6, 7]|
+    #+------------+
+    
+    
+    Method-1: 
+    # get df_sub containing all rows with array values from array of another Row
+    df_sub = df.alias('d1').join(
+          df.alias('d2')
+        , expr('size(array_except(d2.cycle, d1.cycle))==0 AND size(d2.cycle) < size(d1.cycle)')   #array_except在spark2.4版本才能使用，低于2.4的可以使用udf方法
+    ).select('d2.cycle')
+
+
+    Method-2: use udf:
+    # if add all logic into is_subset(), will have the following error
+    #Detected implicit cartesian product for INNER join between logical plans
+
+    from pyspark.sql.functions import udf
+    
+    @udf('boolean')
+    def is_subset(a1, a2):
+      try:
+        return set(a1).issubset(set(a2))    
+      except:
+        return False
+
+    df_sub = df.alias('d1').join(
+            df.alias('d2')
+            #spark2.1的版本有bug,UDF用于join时不支持arguments来自不同dataframe（本例子的 d1.cycle和d2.cycle),如果你的spark版本是2.1，请参考Methon-3
+          , expr('size(d2.cycle) < size(d1.cycle)') & is_subset('d2.cycle', 'd1.cycle')  
+        ).select('d2.cycle')
+
+
+    Method-3: use udf：
+    df_temp = df.alias('d1').join(
+              df.alias('d2'),expr('size(d2.cycle) < size(d1.cycle)')).selectExpr('d2.cycle', 'd1.cycle').cache()
+    
+    def is_subset1(a1,a2):
+        try:
+            return set(a1).issubset(set(a2))
+        except:
+            return False
+     
+     is_subset=udf(lambda x,y:is_subset1(x,y),BooleanType())
+     df_sub=df_temp.filter(is_subset('d2.cycle','d1.cycle')).drop('d1.cycle')
+    
+    
+Step-2:
+    
+    # take a left_anti join to exclude all such Rows(数组里的数据不用排序)
+    df.join(df_sub, on=['cycle'], how='left_anti').show()                                                              
+    #+------------+                                                                  
+    #|       cycle|
+    #+------------+
+    #|[1, 2, 3, 4]|
+    #|   [2, 3, 5]|
+    #|      [6, 7]|
+    #|[2, 3, 4, 1]|
+    #+------------+
+    
+    # sort array and drop_duplicates(对数组里的数据排序用sort_array)
+    df_new = df.join(df_sub , on=['cycle'], how='left_anti') \
+        .withColumn('cycle', expr('sort_array(cycle)')) \
+        .drop_duplicates()
+    #+------------+                                                                  
+    #|       cycle|
+    #+------------+
+    #|[1, 2, 3, 4]|
+    #|   [2, 3, 5]|
+    #|      [6, 7]|
+    #+------------+
