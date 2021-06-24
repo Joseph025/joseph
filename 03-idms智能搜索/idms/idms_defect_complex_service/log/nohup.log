@@ -1,0 +1,11 @@
+ * Serving Flask app "optimization-ws-complex" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+2021-04-20 10:30:01,386 _internal.py[line:113] INFO  * Running on http://0.0.0.0:9409/ (Press CTRL+C to quit)
+2021-04-20 10:30:01,387 _internal.py[line:113] INFO  * Restarting with stat
+2021-04-20 10:30:01,643 _internal.py[line:113] WARNING  * Debugger is active!
+2021-04-20 10:30:01,648 _internal.py[line:113] INFO  * Debugger PIN: 308-442-468
+2021-04-20 10:32:48,639 _internal.py[line:113] INFO 10.8.1.235 - - [20/Apr/2021 10:32:48] "[37mPOST /idms_defect_complex HTTP/1.1[0m" 200 -
+2021-04-20 10:33:58,658 _internal.py[line:113] INFO 10.90.12.77 - - [20/Apr/2021 10:33:58] "[37mPOST /idms_defect_complex HTTP/1.1[0m" 200 -

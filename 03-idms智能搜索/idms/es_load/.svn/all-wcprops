@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/es_load
+END
+idms_x_es_sync_init.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/es_load/idms_x_es_sync_init.sh
+END
+derby.log
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/es_load/derby.log
+END
+idms_x_es_sync_delta.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/es_load/idms_x_es_sync_delta.sh
+END

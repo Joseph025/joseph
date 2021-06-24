@@ -1,0 +1,10 @@
+#!/bin/bash
+source /etc/profile
+
+run_dir=/opt/apps/idms/idms_defect_service
+
+cd ${run_dir}
+
+#start service
+nohup ${ANACONDA_PYTHON}/python optimization-ws.py > log/nohup.log  & 
+

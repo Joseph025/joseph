@@ -1,0 +1,412 @@
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:30: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  method='lar', copy_X=True, eps=np.finfo(np.float).eps,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:167: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  method='lar', copy_X=True, eps=np.finfo(np.float).eps,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:284: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_Gram=True, verbose=0,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1101: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1127: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1362: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=None, eps=np.finfo(np.float).eps,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1602: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=None, eps=np.finfo(np.float).eps,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1738: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/decomposition/online_lda.py:29: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  EPS = np.finfo(np.float).eps
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:32: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:32: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/base.py:306: UserWarning: Trying to unpickle estimator DecisionTreeRegressor from version 0.19.1 when using version 0.21.3. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ * Serving Flask app "optimization-ws" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+2021-03-16 15:51:36,985 _internal.py[line:113] INFO  * Running on http://0.0.0.0:9306/ (Press CTRL+C to quit)
+2021-03-16 15:51:36,985 _internal.py[line:113] INFO  * Restarting with stat
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:30: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  method='lar', copy_X=True, eps=np.finfo(np.float).eps,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:167: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  method='lar', copy_X=True, eps=np.finfo(np.float).eps,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:284: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_Gram=True, verbose=0,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1101: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1127: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1362: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=None, eps=np.finfo(np.float).eps,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1602: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=None, eps=np.finfo(np.float).eps,
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/linear_model/least_angle.py:1738: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/decomposition/online_lda.py:29: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  EPS = np.finfo(np.float).eps
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:32: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:32: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+/opt/anaconda3/envs/py37/lib/python3.7/site-packages/sklearn/base.py:306: UserWarning: Trying to unpickle estimator DecisionTreeRegressor from version 0.19.1 when using version 0.21.3. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+2021-03-16 15:51:37,682 _internal.py[line:113] WARNING  * Debugger is active!
+2021-03-16 15:51:37,696 _internal.py[line:113] INFO  * Debugger PIN: 280-355-494
+2021-03-16 15:51:39,222 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-03-16 15:51:39,246 optimization-ws.py[line:40] INFO <Response [404]>
+2021-03-16 15:51:39,247 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-03-16 15:51:39,247 optimization-ws.py[line:138] INFO 'hits'
+2021-03-16 15:51:39,257 _internal.py[line:113] INFO 10.63.31.28 - - [16/Mar/2021 15:51:39] "[35m[1mPOST /idms_defect HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2098, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-03-17 14:15:02,745 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-03-17 14:15:04,318 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-17 14:15:04,318 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-03-17 14:15:05,014 _internal.py[line:113] INFO 10.63.31.28 - - [17/Mar/2021 14:15:05] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-17 14:29:54,842 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-03-17 14:29:55,258 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-17 14:29:55,258 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-03-17 14:29:55,369 _internal.py[line:113] INFO 10.8.1.235 - - [17/Mar/2021 14:29:55] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-17 14:35:38,253 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-03-17 14:35:38,650 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-17 14:35:38,651 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-03-17 14:35:38,760 _internal.py[line:113] INFO 10.8.1.235 - - [17/Mar/2021 14:35:38] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-17 14:36:39,157 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-03-17 14:36:39,542 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-17 14:36:39,542 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-03-17 14:36:39,652 _internal.py[line:113] INFO 10.8.1.235 - - [17/Mar/2021 14:36:39] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 11:25:03,928 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-03-18 11:25:04,313 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 11:25:04,314 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-03-18 11:25:04,429 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 11:25:04] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 11:25:49,933 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 11:25:50,030 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 11:25:50,030 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 11:25:50,060 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 11:25:50] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 11:26:27,382 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 11:26:27,498 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 11:26:27,498 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 11:26:27,531 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 11:26:27] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 11:28:02,215 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 11:28:02,320 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 11:28:02,320 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 11:28:02,352 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 11:28:02] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 13:40:07,125 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【10500v7产品 B70分支】【CTC测试】【NQA&TRACK】ICMP-jitter Test、DHCP Test、DNS Test、FTP Test、HTTP Test、UDP-jitter Test、SNMP Test、TCP Test、UDP-tracert Test、Voice Test、Path-jitter Test，经测试功能实现，请修改规格'}}]}}}
+2021-03-18 13:40:07,292 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 13:40:07,293 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=652ea23bec92ded7ebdf42291a6fcf06
+2021-03-18 13:40:07,346 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 13:40:07] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 13:43:05,287 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【10500v7产品 B70分支】【CTC测试】【NQA&TRACK】ICMP-jitter Test、DHCP Test、DNS Test、FTP Test、HTTP Test、UDP-jitter Test、SNMP Test、TCP Test、UDP-tracert Test、Voice Test、Path-jitter Test，经测试功能实现，请修改规格'}}]}}}
+2021-03-18 13:43:05,437 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 13:43:05,437 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=652ea23bec92ded7ebdf42291a6fcf06
+2021-03-18 13:43:05,485 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 13:43:05] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 13:52:52,831 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 13:52:52,939 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 13:52:52,940 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 13:52:52,972 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 13:52:52] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 13:57:48,362 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 13:57:48,468 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 13:57:48,468 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 13:57:48,501 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 13:57:48] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 14:08:48,165 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 14:08:48,271 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 14:08:48,271 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 14:08:48,306 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 14:08:48] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 14:13:41,195 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 14:13:41,306 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 14:13:41,307 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 14:13:41,339 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 14:13:41] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 14:20:36,948 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 14:20:37,048 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 14:20:37,048 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 14:20:37,079 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 14:20:37] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 15:22:17,524 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 15:22:17,637 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 15:22:17,637 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 15:22:17,672 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 15:22:17] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 15:54:39,023 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 15:54:39,118 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 15:54:39,118 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 15:54:39,152 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 15:54:39] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 15:58:37,958 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 15:58:38,069 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 15:58:38,069 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 15:58:38,102 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 15:58:38] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 17:30:30,236 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 17:30:30,350 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 17:30:30,350 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 17:30:30,386 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 17:30:30] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-18 19:27:06,767 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-18 19:27:06,864 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-18 19:27:06,864 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-18 19:27:06,899 _internal.py[line:113] INFO 10.90.12.77 - - [18/Mar/2021 19:27:06] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-19 10:10:24,917 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-19 10:10:25,022 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-19 10:10:25,022 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-19 10:10:25,058 _internal.py[line:113] INFO 10.90.12.77 - - [19/Mar/2021 10:10:25] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-19 16:31:50,863 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-19 16:31:50,974 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-19 16:31:50,974 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-19 16:31:51,009 _internal.py[line:113] INFO 10.90.12.77 - - [19/Mar/2021 16:31:51] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-19 16:34:37,416 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-19 16:34:37,523 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-19 16:34:37,523 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-19 16:34:37,555 _internal.py[line:113] INFO 10.90.12.77 - - [19/Mar/2021 16:34:37] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-19 16:59:14,649 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-19 16:59:14,738 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-19 16:59:14,738 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-19 16:59:14,773 _internal.py[line:113] INFO 10.90.12.77 - - [19/Mar/2021 16:59:14] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-19 16:59:38,210 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-19 16:59:38,290 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-19 16:59:38,290 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-19 16:59:38,322 _internal.py[line:113] INFO 10.90.12.77 - - [19/Mar/2021 16:59:38] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-19 17:39:16,494 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-19 17:39:16,596 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-19 17:39:16,596 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-19 17:39:16,631 _internal.py[line:113] INFO 10.90.12.77 - - [19/Mar/2021 17:39:16] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-19 17:39:40,236 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-19 17:39:40,337 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-19 17:39:40,337 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-19 17:39:40,369 _internal.py[line:113] INFO 10.90.12.77 - - [19/Mar/2021 17:39:40] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-19 17:39:42,411 optimization-ws.py[line:101] INFO {'from': 1, 'size': 1, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-19 17:39:42,511 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-19 17:39:42,511 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-19 17:39:42,542 _internal.py[line:113] INFO 10.90.12.77 - - [19/Mar/2021 17:39:42] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-24 10:39:18,679 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'content': '内存'}}]}}}
+2021-03-24 10:39:18,680 optimization-ws.py[line:138] INFO 'NoneType' object has no attribute 'encode'
+2021-03-24 10:39:18,691 _internal.py[line:113] INFO 10.90.12.77 - - [24/Mar/2021 10:39:18] "[35m[1mPOST /idms_defect HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2098, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-03-24 10:39:21,081 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'content': '内存'}}]}}}
+2021-03-24 10:39:21,081 optimization-ws.py[line:138] INFO 'NoneType' object has no attribute 'encode'
+2021-03-24 10:39:21,091 _internal.py[line:113] INFO 10.90.12.77 - - [24/Mar/2021 10:39:21] "[35m[1mPOST /idms_defect HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2098, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-03-24 10:39:22,551 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'content': '内存'}}]}}}
+2021-03-24 10:39:22,552 optimization-ws.py[line:138] INFO 'NoneType' object has no attribute 'encode'
+2021-03-24 10:39:22,562 _internal.py[line:113] INFO 10.90.12.77 - - [24/Mar/2021 10:39:22] "[35m[1mPOST /idms_defect HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2098, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-03-24 10:39:28,392 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-03-24 10:39:31,460 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-24 10:39:31,460 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-03-24 10:39:31,526 _internal.py[line:113] INFO 10.90.12.77 - - [24/Mar/2021 10:39:31] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-24 11:06:26,097 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': 'test'}}]}}}
+2021-03-24 11:06:26,940 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-24 11:06:26,941 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=098f6bcd4621d373cade4e832627b4f6
+2021-03-24 11:06:26,982 _internal.py[line:113] INFO 10.90.12.77 - - [24/Mar/2021 11:06:26] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-03-26 13:32:54,177 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '草稿测试。'}}]}}}
+2021-03-26 13:32:57,278 optimization-ws.py[line:40] INFO <Response [200]>
+2021-03-26 13:32:57,278 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=38b5fd849d1b28a9918a5502ba2f0fa7
+2021-03-26 13:32:57,308 _internal.py[line:113] INFO 10.90.12.77 - - [26/Mar/2021 13:32:57] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-01 10:17:38,023 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'content': '内存'}}]}}}
+2021-04-01 10:17:38,024 optimization-ws.py[line:138] INFO 'NoneType' object has no attribute 'encode'
+2021-04-01 10:17:38,035 _internal.py[line:113] INFO 10.90.12.77 - - [01/Apr/2021 10:17:38] "[35m[1mPOST /idms_defect HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/opt/anaconda3/envs/py37/lib/python3.7/site-packages/flask/app.py", line 2098, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-04-01 10:17:41,531 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}, {'match': {'content': '内存'}}]}}}
+2021-04-01 10:17:45,113 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-01 10:17:45,113 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-01 10:17:45,206 _internal.py[line:113] INFO 10.90.12.77 - - [01/Apr/2021 10:17:45] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-01 10:17:47,405 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-04-01 10:17:48,408 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-01 10:17:48,408 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-01 10:17:48,464 _internal.py[line:113] INFO 10.90.12.77 - - [01/Apr/2021 10:17:48] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-01 14:05:00,500 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-04-01 14:05:03,856 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-01 14:05:03,856 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-01 14:05:03,971 _internal.py[line:113] INFO 10.90.12.77 - - [01/Apr/2021 14:05:03] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-08 16:23:20,573 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-04-08 16:23:24,413 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-08 16:23:24,413 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-04-08 16:23:24,558 _internal.py[line:113] INFO 10.63.31.28 - - [08/Apr/2021 16:23:24] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-09 22:42:02,929 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-04-09 22:42:06,019 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-09 22:42:06,019 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-09 22:42:06,085 _internal.py[line:113] INFO 10.90.12.77 - - [09/Apr/2021 22:42:06] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-09 22:49:11,874 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-04-09 22:49:12,033 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-09 22:49:12,033 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-09 22:49:12,087 _internal.py[line:113] INFO 10.90.12.77 - - [09/Apr/2021 22:49:12] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-09 22:50:35,525 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-04-09 22:50:35,689 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-09 22:50:35,689 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-09 22:50:35,748 _internal.py[line:113] INFO 10.90.12.77 - - [09/Apr/2021 22:50:35] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-12 09:29:12,631 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '上海交行现网mime异常报文导致设备死机，B70分支'}}]}}}
+2021-04-12 09:29:15,953 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-12 09:29:15,954 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=2bb5bd75f7e80412bc3ee7fac262d905
+2021-04-12 09:29:16,001 _internal.py[line:113] INFO 10.90.12.77 - - [12/Apr/2021 09:29:16] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-12 13:55:48,715 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-04-12 13:55:50,818 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-12 13:55:50,818 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-04-12 13:55:50,934 _internal.py[line:113] INFO 10.90.12.77 - - [12/Apr/2021 13:55:50] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-12 13:58:25,105 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '上海交行现网mime异常报文导致设备死机，B70分支'}}]}}}
+2021-04-12 13:58:25,280 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-12 13:58:25,281 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=2bb5bd75f7e80412bc3ee7fac262d905
+2021-04-12 13:58:25,327 _internal.py[line:113] INFO 10.90.12.77 - - [12/Apr/2021 13:58:25] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-12 13:59:05,715 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-04-12 13:59:06,058 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-12 13:59:06,058 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-04-12 13:59:06,171 _internal.py[line:113] INFO 10.90.12.77 - - [12/Apr/2021 13:59:06] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-12 14:46:49,727 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '上海交行现网mime异常报文导致设备死机，B70分支'}}]}}}
+2021-04-12 14:46:49,882 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-12 14:46:49,882 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=2bb5bd75f7e80412bc3ee7fac262d905
+2021-04-12 14:46:49,932 _internal.py[line:113] INFO 10.90.12.77 - - [12/Apr/2021 14:46:49] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-12 17:50:03,289 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-04-12 17:50:03,631 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-12 17:50:03,631 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-04-12 17:50:03,746 _internal.py[line:113] INFO 10.63.31.28 - - [12/Apr/2021 17:50:03] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-12 18:00:52,394 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-04-12 18:00:52,709 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-12 18:00:52,709 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-04-12 18:00:52,820 _internal.py[line:113] INFO 10.63.31.28 - - [12/Apr/2021 18:00:52] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-14 13:41:16,137 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-04-14 13:41:16,300 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-14 13:41:16,300 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-14 13:41:16,359 _internal.py[line:113] INFO 10.90.12.77 - - [14/Apr/2021 13:41:16] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-14 14:04:49,972 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '上海交行现网mime异常报文导致设备死机，B70分支'}}]}}}
+2021-04-14 14:04:50,143 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-14 14:04:50,143 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=2bb5bd75f7e80412bc3ee7fac262d905
+2021-04-14 14:04:50,186 _internal.py[line:113] INFO 10.90.12.77 - - [14/Apr/2021 14:04:50] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-14 14:06:18,408 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '上海交行现网mime异常报文导致设备死机，B70分支'}}]}}}
+2021-04-14 14:06:18,568 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-14 14:06:18,568 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=2bb5bd75f7e80412bc3ee7fac262d905
+2021-04-14 14:06:18,613 _internal.py[line:113] INFO 10.90.12.77 - - [14/Apr/2021 14:06:18] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-14 14:13:54,358 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-04-14 14:13:54,527 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-14 14:13:54,528 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-14 14:13:54,589 _internal.py[line:113] INFO 10.90.12.77 - - [14/Apr/2021 14:13:54] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-14 14:19:57,490 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '上海交行现网mime异常报文导致设备死机，B70分支'}}]}}}
+2021-04-14 14:19:57,663 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-14 14:19:57,663 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=2bb5bd75f7e80412bc3ee7fac262d905
+2021-04-14 14:19:57,707 _internal.py[line:113] INFO 10.90.12.77 - - [14/Apr/2021 14:19:57] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-14 14:24:46,393 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '上海交行现网mime异常报文导致设备死机，B70分支'}}]}}}
+2021-04-14 14:24:46,549 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-14 14:24:46,549 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=2bb5bd75f7e80412bc3ee7fac262d905
+2021-04-14 14:24:46,590 _internal.py[line:113] INFO 10.90.12.77 - - [14/Apr/2021 14:24:46] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-14 14:25:03,941 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-04-14 14:25:04,099 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-14 14:25:04,099 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-14 14:25:04,155 _internal.py[line:113] INFO 10.90.12.77 - - [14/Apr/2021 14:25:04] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-14 14:39:39,537 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-04-14 14:39:39,693 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-14 14:39:39,693 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-14 14:39:39,748 _internal.py[line:113] INFO 10.90.12.77 - - [14/Apr/2021 14:39:39] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-14 14:42:35,017 optimization-ws.py[line:101] INFO {'from': 0, 'size': 20, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '内存'}}]}}}
+2021-04-14 14:42:35,173 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-14 14:42:35,173 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=9932551cd5b135b3ca97042293389e12
+2021-04-14 14:42:35,227 _internal.py[line:113] INFO 10.90.12.77 - - [14/Apr/2021 14:42:35] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -
+2021-04-14 18:02:42,604 optimization-ws.py[line:101] INFO {'from': 30, 'size': 15, 'sort': [{'_score': 'desc'}, {'defectID': 'desc'}], 'query': {'bool': {'must': [{'match': {'summary': '【SR88 V7R7】【SR88 B75分支】【NGMVPN 严重】入PE设备带4K隧道16K转发表项，BGP配置GR后主备倒换，倒换完成后删除选择性隧道指定acl中的rule，选择性隧道无法删除。'}}]}}}
+2021-04-14 18:02:42,954 optimization-ws.py[line:40] INFO <Response [200]>
+2021-04-14 18:02:42,954 optimization-ws.py[line:41] INFO http://10.165.8.52:9200/idms_defect_v4/_search?preference=b896ac27476a1a8720ac650655622185
+2021-04-14 18:02:43,071 _internal.py[line:113] INFO 10.90.12.77 - - [14/Apr/2021 18:02:43] "[37mPOST /idms_defect HTTP/1.1[0m" 200 -

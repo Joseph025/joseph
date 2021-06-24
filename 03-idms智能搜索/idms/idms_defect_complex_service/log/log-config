@@ -1,0 +1,23 @@
+[loggers]
+keys=root
+[logger_root]
+level=DEBUG
+handlers=h1,h2
+[handlers]
+keys=h1,h2
+[handler_h1]
+class=StreamHandler
+level=INFO
+formatter=fmt
+args=(sys.stderr,)
+[handler_h2]
+class=handlers.RotatingFileHandler
+level=INFO
+formatter=fmt
+args=('./log/OptimizationWS.log', 'a', 10*1024*1024, 5)
+[formatters]
+keys=fmt
+[formatter_fmt]
+format=%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s
+datefmt=
+

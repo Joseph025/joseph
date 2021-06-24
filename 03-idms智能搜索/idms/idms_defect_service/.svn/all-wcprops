@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service
+END
+optimization-ws.py.bak
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/optimization-ws.py.bak
+END
+model_training.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/model_training.py
+END
+optimization-ws.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/optimization-ws.py
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/start.sh
+END
+test-post.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/test-post.py
+END
+click_graph_cal.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/click_graph_cal.py
+END
+restart.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/restart.sh
+END

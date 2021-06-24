@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_log_recall
+END
+idms_log_recall_daily.log
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_log_recall/idms_log_recall_daily.log
+END
+idms_log_recall_daily.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_log_recall/idms_log_recall_daily.sh
+END
+log_recall.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_log_recall/log_recall.py
+END

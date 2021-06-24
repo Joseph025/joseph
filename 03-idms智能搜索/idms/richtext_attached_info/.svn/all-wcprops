@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/richtext_attached_info
+END
+derby.log
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/richtext_attached_info/derby.log
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/richtext_attached_info/start.sh
+END
+richtext_attached_info.py.bck
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/richtext_attached_info/richtext_attached_info.py.bck
+END
+richtext_attached_info.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/richtext_attached_info/richtext_attached_info.py
+END
+richtext_attached_info1.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/richtext_attached_info/richtext_attached_info1.py
+END

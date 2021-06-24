@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/log
+END
+OptimizationWS.log
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/log/OptimizationWS.log
+END
+log-config
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/log/log-config
+END
+derby.log
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/log/derby.log
+END
+nohup.log
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/log/nohup.log
+END

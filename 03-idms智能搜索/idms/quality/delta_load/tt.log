@@ -1,0 +1,19 @@
+Start load data
+Mon Apr 2 15:00:43 CST 2018 : quality_landing_hive.defectmain_incr row count is 460.Start process..
+Mon Apr 2 15:03:20 CST 2018 : quality_landing_hive.defectmain_incr process finished!
+Mon Apr 2 15:04:00 CST 2018 : quality_landing_hive.defectprocessflow_incr row count is 224.Start process..
+Mon Apr 2 15:05:53 CST 2018 : quality_landing_hive.defectprocessflow_incr process finished!
+Mon Apr 2 15:06:31 CST 2018 : quality_landing_hive.workflowtask_incr row count is 473.Start process..
+Mon Apr 2 15:09:36 CST 2018 : quality_landing_hive.workflowtask_incr process finished!
+Mon Apr 2 15:10:16 CST 2018 : quality_landing_hive.workflowrecord_incr row count is 316.Start process..
+Mon Apr 2 15:14:30 CST 2018 : quality_landing_hive.workflowrecord_incr process finished!
+Mon Apr 2 15:15:12 CST 2018 : quality_landing_hive.richtext_incr row count is606.Start process..
+Mon Apr 2 15:20:52 CST 2018 : quality_landing_hive.richtext_incr process finished!
+refreshing dimension table
+Start prepare ml data
+Start Calculate
+2018-04-02 15:27:32,888 : INFO : 使用默认表输入表输出
+2018-04-02 15:45:24,716 : INFO : 使用默认表输入表输出
+2018-04-02 16:30:43,522 : INFO : Test tool predict finished successed.
+Start Send to ES
+Send to Reporting

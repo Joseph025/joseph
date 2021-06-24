@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/SortAlgorithm
+END
+model
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/SortAlgorithm/model
+END
+click_graph
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/SortAlgorithm/click_graph
+END
+model_interface.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/SortAlgorithm/model_interface.py
+END
+model_new
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/DC_ETL/!svn/ver/637/Branchs/ITG/spark_jobs/apps/idms/idms_defect_service/SortAlgorithm/model_new
+END

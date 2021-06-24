@@ -1,0 +1,79 @@
+import re
+import os
+from pyspark.sql import SparkSession
+import numpy as np
+import pandas as pd
+import logging
+import requests
+import json
+import datetime
+
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+
+#搜索日志
+search_file = "idms-search.csv"
+#点击日志
+click_file = "idms-click.csv"
+
+if 0 == os.path.getsize(search_file):
+    logging.info("IDMS Search log found no data, exit.")
+    sys.exit()
+
+search_data_header = ["FuncType","Sql","CreationTime"]
+search_data = pd.read_csv(search_file,sep='\^\|~',header=0,usecols=search_data_header,na_filter=False,\
+                          encoding="UTF-8",engine='python')
+
+#rest param init
+url="http://10.165.8.52:9306/idms_defect"
+headers={"content-type":"application/json; charset=UTF-8"}
+es_data = []
+
+def call_es(row):
+    d_body = eval(row[1].strip('"').replace('""','"'))
+    d_body['_source'] = ['defectID','defectNo','summary']
+    d_body = json.dumps(d_body)
+    response = requests.post(url,headers=headers,data=d_body)
+    if response.status_code == 200:
+        r_data = response.json()
+        for hits in r_data['hits']['hits']:
+            if 'defectNo' not in hits['_source']:
+                hits['_source']['defectNo'] = '' 
+            es_data.append({'log_id' : row[0], 'log_query' : row[1], 'log_date' : row[2], \
+                            'es_score' : hits['_score'],'defectid' : hits['_source']['defectID'],\
+                            'defectno' : str(hits['_source']['defectNo']),'summary' : hits['_source']['summary']})
+
+#call es api to get candidate list
+search_data.loc[:,search_data_header].apply(call_es,axis=1,raw=True)
+
+click_data_header = ["FuncType","Sql"]
+click_data = None
+
+if 0 < os.path.getsize(search_file):
+    logging.info("IDMS Search log found data, start processing")
+    click_data = pd.read_csv(click_file,sep='\^\|~',header=0,usecols=click_data_header,na_filter=False,\
+                             encoding="UTF-8",engine='python').loc[:,click_data_header]
+    click_data = click_data.assign(defectno1=click_data["Sql"].str.split("|",expand=True)[0])
+    click_data = click_data.assign(click_i=click_data["Sql"].str.split("|",expand=True)[1])
+    click_data = click_data.drop("Sql",axis=1)
+else:
+    logging.info("IDMS Click log found no data.")
+    click_data = pd.DataFrame(data=[['dummy','dummy']],columns=['FuncType','defectno','click_i'])
+
+#build spark session
+se = SparkSession.builder.appName("IDMS Log Info Recall").enableHiveSupport().getOrCreate()
+df_search = se.createDataFrame(es_data)
+df_click = se.createDataFrame(click_data)
+df_search.join(df_click,(df_search.log_id == df_click.FuncType) & (df_search.defectno == df_click.defectno1),\
+              'left_outer')\
+              .select('log_id','log_query','log_date','es_score','defectid','defectno','summary','click_i')\
+              .write.insertInto("quality_outbound_hive.idms_search_log_recall")
+#get all IDMS data
+#df_all = se.sql("select * from table quality_outbound_hive.hive_ml_model_data_prepare_v2").fillna('')
+
+#join
+#final_data = df_search.join(df_all,df_search.defectid == df_all.defectid,'left_outer')
+#translate to csv
+#df_headers = ["^|~".join(final_data.columns)]
+#final_data = final_data.rdd.map(lambda rows: ["^|~".join([str(row) for row in rows])])
+#se.createDataFrame(final_data,df_headers).write.csv("/test/do",quote='',header=True)
+se.stop()

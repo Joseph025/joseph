@@ -1,0 +1,3 @@
+2018-07-03 23:00:26,805 : INFO : IDMS Search log found data, start processing
+/usr/hdp/current/spark2-client/python/lib/pyspark.zip/pyspark/sql/session.py:316: UserWarning: inferring schema from dict is deprecated,please use pyspark.sql.Row instead
+  warnings.warn("inferring schema from dict is deprecated,"

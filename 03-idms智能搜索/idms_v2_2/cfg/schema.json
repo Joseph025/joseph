@@ -1,0 +1,237 @@
+{
+  "propertyKeys" : [ {
+    "name" : "name",
+    "dataType" : "STRING",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }, {
+    "name" : "describe",
+    "dataType" : "STRING",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }, {
+    "name" : "level",
+    "dataType" : "STRING",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }, {
+    "name" : "class",
+    "dataType" : "STRING",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }, {
+    "name" : "alias",
+    "dataType" : "STRING",
+    "cardinality" : "LIST",
+    "signatures" : []
+  }, {
+    "name" : "pdtForm",
+    "dataType" : "STRING",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }, {
+    "name" : "state",
+    "dataType" : "STRING",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }, {
+    "name" : "isVerPatch",
+    "dataType" : "BOOLEAN",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }, {
+    "name" : "isVerWeak",
+    "dataType" : "BOOLEAN",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }, {
+    "name" : "Domain",
+    "dataType" : "STRING",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }, {
+    "name" : "Range",
+    "dataType" : "STRING",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }, {
+    "name" : "URL",
+    "dataType" : "STRING",
+    "cardinality" : "SINGLE",
+    "signatures" : []
+  }],
+  "vertexLabels" : [{
+    "name" : "iConfig",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : ["name"],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iDefect",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name", "describe", "level", "class" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iPDTPL",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name", "alias", "URL" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iPDTSwitch",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name", "alias", "pdtForm", "URL"],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iPDTSwitchSeries",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name", "alias" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iPDTSwitchSpecs",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iPDTH3C",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iVerCMWV7Branch",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iVerCMWV7BranchDemo",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iVerH3C",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name", "alias" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iVerSwitchBranch",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iVerSwitchBranchDemo",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name", "state", "isVerPatch", "isVerWeak" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iCmdV7B70",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name", "class", "URL" ],
+    "ttlSeconds" : 0
+  },{
+    "name" : "iCustomer",
+    "isPartition" : false,
+    "isStatic" : false,
+    "propertyKeys" : [ "name", "class" ],
+    "ttlSeconds" : 0
+  }], 
+  "edgeLabels" : [
+  {
+    "name" : "rDefectIntroduceVersion",
+    "multiplicity" : "MULTI",
+    "signatures" : [],
+    "isDirected" : true,
+    "propertyKeys" : [ "Domain", "Range" ],
+    "ttlSeconds":0,
+    "connections": [{"startVertexLabel":"iDefect","endVertexLabel":"iVerSwitchBranchDemo"}]
+  }, {
+    "name" : "rDefectKeyConfig",
+    "multiplicity" : "MULTI",
+    "signatures" : [],
+    "isDirected" : true,
+    "propertyKeys" : [ "Domain", "Range" ],
+    "ttlSeconds": 0,
+    "connections": [{"startVertexLabel":"iDefect","endVertexLabel":"iConfig"}]
+  }, {
+    "name" : "rDefectResolveVersion",
+    "multiplicity" : "MULTI",
+    "signatures" : [],
+    "isDirected" : true,
+    "propertyKeys" : [ "Domain", "Range" ],
+    "ttlSeconds": 0,
+    "connections": [{"startVertexLabel":"iDefect","endVertexLabel":"iVerSwitchBranchDemo"}]
+  }, {
+    "name" : "rPDTaboutVersion",
+    "multiplicity" : "MULTI",
+    "signatures" : [],
+    "isDirected" : true,
+    "propertyKeys" : [ "Domain", "Range" ],
+    "ttlSeconds": 0,
+    "connections": [{"startVertexLabel":"iPDTSwitch","endVertexLabel":"iVerSwitchBranch"}]
+  }, {
+    "name" : "rPDTContains",
+    "multiplicity" : "MULTI",
+    "signatures" : [],
+    "isDirected" : true,
+    "propertyKeys" : [ "Domain", "Range" ],
+    "ttlSeconds": 0,
+    "connections": [{"startVertexLabel":"iPDTPL","endVertexLabel":"iPDTSwitchSeries"},
+                    {"startVertexLabel":"iPDTSwitch","endVertexLabel":"iPDTSwitchSpecs"},
+                    {"startVertexLabel":"iPDTSwitchSeries","endVertexLabel":"iPDTSwitch"},
+                    {"startVertexLabel":"iPDTH3C","endVertexLabel":"iPDTPL"}]
+  }, {
+    "name" : "rVersionhasChild",
+    "multiplicity" : "MULTI",
+    "signatures" : [],
+    "isDirected" : true,
+    "propertyKeys" : [ "Domain", "Range" ],
+    "ttlSeconds": 0,
+    "connections": [{"startVertexLabel":"iVerCMWV7BranchDemo","endVertexLabel":"iVerCMWV7BranchDemo"},
+                    {"startVertexLabel":"iVerSwitchBranchDemo","endVertexLabel":"iVerSwitchBranchDemo"}]
+  }, {
+    "name" : "rVersionPdt2Patch",
+    "multiplicity" : "MULTI",
+    "signatures" : [],
+    "isDirected" : true,
+    "propertyKeys" : [ "Domain", "Range" ],
+    "ttlSeconds": 0,
+    "connections": [{"startVertexLabel":"iVerSwitchBranchDemo","endVertexLabel":"iVerSwitchBranchDemo"}]
+  }, {
+    "name" : "rVersionPdt2Plat",
+    "multiplicity" : "MULTI",
+    "signatures" : [],
+    "isDirected" : true,
+    "propertyKeys" : [ "Domain", "Range" ],
+    "ttlSeconds": 0,
+    "connections": [{"startVertexLabel":"iVerSwitchBranchDemo","endVertexLabel":"iVerCMWV7BranchDemo"}]
+  }, {
+    "name" : "rVersionSameas",
+    "multiplicity" : "MULTI",
+    "signatures" : [],
+    "isDirected" : true,
+    "propertyKeys" : [ "Domain", "Range" ],
+    "ttlSeconds": 0,
+    "connections": [{"startVertexLabel":"iVerSwitchBranchDemo","endVertexLabel":"iVerSwitchBranchDemo"}]
+  }, {
+    "name" : "rVersionContains",
+    "multiplicity" : "MULTI",
+    "signatures" : [],
+    "isDirected" : true,
+    "propertyKeys" : [ "Domain", "Range" ],
+    "ttlSeconds": 0,
+    "connections": [{"startVertexLabel":"iVerCMWV7Branch","endVertexLabel":"iVerCMWV7BranchDemo"},
+                    {"startVertexLabel":"iVerH3C","endVertexLabel":"iVerCMWV7Branch"},
+                    {"startVertexLabel":"iVerH3C","endVertexLabel":"iVerSwitchBranch"},
+                    {"startVertexLabel":"iVerSwitchBranch","endVertexLabel":"iVerSwitchBranchDemo"}]
+  }]
+}
