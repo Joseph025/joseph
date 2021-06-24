@@ -1,0 +1,6 @@
+将白名单whiteList转换成一行一列的dataframe
+    # schema=StructType([StructField("white",StringType(),True)])
+    # df_white=spark.createDataFrame(DataFrame(whiteList), schema) # ["white"]
+    # df_all=df_white.withColumn("name",f.lit("白名单"))
+    # df_all.registerTempTable("tmp_all")
+    # df_whiteList=spark.sql("select concat_ws(',',collect_set(white)) as detailkey from tmp_all group by name")
