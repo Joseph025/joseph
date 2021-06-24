@@ -1,0 +1,31 @@
+# 将将嵌套的list转换成一维的list
+def flat(l):
+    for k in l :
+        if not isinstance(k,(list,tuple)):
+            yield k
+        else:
+            yield from flat(k)
+
+
+# 6 search关键字
+def discovery_from_merge(list_thr):
+    if common.data_is_NULL(list_thr):
+        logging.info("数据合并失败")
+    list_merge=[]
+    for param in list_thr:
+        kdddict = {}
+        destList = []
+        destname=param["name"]
+        for keys in param.keys():
+            if keys == "describekey" or keys == "detailkey":
+                if "\\[" in param[keys] or "\\]" in param[keys]:
+                    destList = destList + common.csv_list_str_2_list(param[keys])
+                else:
+                    destList.append(param[keys])
+
+        # 已满足,将嵌套的list转换成一维的list
+        # print(set(reduce(operator.add,destList)))
+
+        # print(list(set(flat(destList))))
+
+        kdddict.update({destname[0]:list(set(flat(destList)))})
