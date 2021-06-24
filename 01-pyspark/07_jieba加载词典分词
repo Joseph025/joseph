@@ -1,0 +1,27 @@
+g_drpoList=['，','。','：','；','？','【','】','、','！','+','-',' ','（','）','[',']','(',')',',','.',';','?','!',':','--','---','{','}',
+'----',
+'------','...',
+'........................',
+'..........................',
+'..............................','呢','吗','的','唉','啊']
+
+
+if bUseCustomDict:
+        # 对简述分词，加载用户自定义的词典
+        jieba.load_userdict(g_word_segment_local_file)
+        jieba.initialize()
+    # Data preprocessing数据预处理，要分词的字段预处理
+    user_string = common.C_trans2_E(srcString)
+    # segment将数据生成一个list
+    ret_list = jieba.lcut(user_string.lower())
+    wordList = []
+    for i in ret_list:
+        if i in wordList:
+            continue
+        # g_drpoList是停用词集合。去掉在停用词里的没用的词，例如[中国,真棒,啊,...]->[中国,真棒]
+        if i in g_drpoList:
+            continue
+        if len(i) < 2:
+            continue
+        wordList.append(i)
+    return wordList
